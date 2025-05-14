@@ -1,4 +1,4 @@
-import { Text , StyleSheet } from "react-native";
+import { Text } from "react-native";
 import { Profile } from "./components/Profile/Profile";
 import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
 import {styles} from "./App.styles"
