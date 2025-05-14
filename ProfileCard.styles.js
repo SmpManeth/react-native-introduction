@@ -13,20 +13,19 @@ export const  styles = StyleSheet.create({
     shadowOpacity: 0.25,
     shadowRadius: 3.5,
     padding: 20,
+    borderRadius: 10,
+    
   },
 
   header:{
-    backgroundColor: "#f8f8f8",
-    borderTopLeftRadius: 10,
-    borderTopRightRadius: 10,
     flexDirection: "row",
     alignItems: "center",
   },
 
   social:{
-    // flexDirection: "row",
-    // justifyContent: "space-around",
-    // padding: 10,
+     flexDirection: "row",
+     justifyContent: "space-evenly",
+     padding: 10,
   },
   avatar:{
     width: 70,
@@ -46,6 +45,13 @@ export const  styles = StyleSheet.create({
     flex: 1,
     paddingLeft:15,
   },
+
+  socialBtn:{
+    padding: 10,
+    borderRadius: 50,
+    backgroundColor: "#f0f0f0",
+    margin: 5,
+  }
 
 
   })
